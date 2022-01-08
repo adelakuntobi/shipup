@@ -19,3 +19,76 @@ export const Btn = styled.button`
 font-size: 14px;
 line-height: 17px;
 `;
+
+
+export const DefaultHeader = styled.div`
+    text-transform: capitalize;
+h2{
+  font-size: 2.25rem;
+    /* font-weight: 700; */
+ 
+    
+    b{
+      position: relative;
+      display: inline-block;
+    z-index: 10;
+    line-height: 1;
+
+    &::after{
+      content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0px;
+    right: 0px;
+    /* margin: 0px auto; */
+    bottom: -9px;
+    background-color: #F67366;
+    z-index: -1;
+    }
+    }
+}
+
+`;
+
+
+export const FieldSet = styled.fieldset`
+
+  legend{
+    color: #979797;
+  }
+  
+  input{
+    border-color: #979797;
+    
+  }
+`;
+
+
+// Services
+export const ServicesDiv = styled.div`
+  .icon{
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(151, 151, 151, 0.25);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #2C2D5B;
+    /* gap: 2rem; */
+  } 
+  h5{
+    text-transform: capitalize;
+    color: #2C2D5B;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  p{
+    color: #4F4F4F;
+    font-size: 0.875rem;
+  }
+`;

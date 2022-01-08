@@ -1,4 +1,5 @@
 import { Btn } from "../../styledComponents";
+import { BsFillCameraVideoFill } from "react-icons/bs"
 
 export default function Header() {
   return (
@@ -8,7 +9,9 @@ export default function Header() {
         <p>ShipUp delivers an unparalleled customer service through dedicated customer teams, engaged people working in an agile culture, and a global footprint</p>
         <div className="flex gap-6">
           <Btn primary>Join Now</Btn>
-          <Btn>Play Demo</Btn>
+          <Btn className="!flex items-center">
+            <BsFillCameraVideoFill className="mr-3 text-lg" />
+            Play Demo</Btn>
         </div>
       </div>
 
