@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 export const Btn = styled.button`
-   background: ${props => props.primary ? "#2C2D5B" : "white"};
+   background: ${props => props.primary ? "#2C2D5B" : "transparent"};
   color: ${props => props.primary ? "white" : "#2C2D5B"};
 
   padding: 1.15rem 2.25rem;
@@ -90,5 +90,43 @@ export const ServicesDiv = styled.div`
   p{
     color: #4F4F4F;
     font-size: 0.875rem;
+  }
+`;
+
+
+export const OperationsDiv = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  width: 100%;
+  margin: auto;
+
+  .withNo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    h6{
+      font-weight: 700;
+      font-size: 2rem;
+      color: #F67366;
+    }
+    span{
+      background-color: #230B34;
+      color: #FFF;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      border-radius: 50%;
+      margin-right: 1rem;
+    }
+  }
+  p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
   }
 `;
