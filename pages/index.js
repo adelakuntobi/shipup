@@ -1,8 +1,10 @@
 import Head from 'next/head'
+import Footer from '../components/Landing/Footer'
 import Header from '../components/Landing/Header'
 import Navbar from '../components/Landing/Header/Navbar'
 import Operations from '../components/Landing/Main/Operations'
 import Services from '../components/Landing/Main/Services'
+import Warehouse from '../components/Landing/Main/Warehouse'
 import { Btn, FieldSet } from '../components/styledComponents'
 
 export default function Home() {
@@ -39,11 +41,10 @@ export default function Home() {
       <main>
         <Services />
         <Operations />
+        <Warehouse />
       </main>
 
-      <footer>
-
-      </footer>
+     <Footer />
     </div>
   )
 }

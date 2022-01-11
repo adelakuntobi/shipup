@@ -18,6 +18,7 @@ module.exports = {
       'mypeach': '#F67366',
       'myellow': '#FFF6DF',
       'mygray': '#E8EEFF',
+      "white": "#ffffff",
     },
     extend: {
       spacing: {
