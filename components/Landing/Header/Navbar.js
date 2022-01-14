@@ -13,7 +13,7 @@ export default function Navbar() {
          <li>News And Media</li>
       </ul>
 
-      <div className="flex gap-6">
+      <div className="hidden lg:flex gap-6">
         <Btn>Request Quote</Btn>
         <Btn primary>Join Now</Btn>
       </div>

@@ -17,7 +17,7 @@ export default function Home() {
 
       <header className='flex flex-col justify-between gap-16 min-h-screen relative py-10'>
         <img src="/images/animate.svg"
-          className=' absolute z-0 top-0 -left-8' />
+          className=' absolute top-0 -left-8 -z-10' />
         <Navbar />
         <Header />
         <form className='container flex flex-wrap lg:flex-nowrap  flex-col lg:flex-row gap-8 w-full rounded-2xl shadow-2xl py-8 !px-8'>

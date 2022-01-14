@@ -8,6 +8,10 @@ const GlobalStyle = createGlobalStyle`
 
 body{
   font-size: 14px;
+
+  @media screen {
+    
+  }
 }
 
 input{

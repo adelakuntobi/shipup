@@ -6,18 +6,18 @@ import { BsFillBagFill } from "react-icons/bs"
 export default function Services() {
   return (
     <section style={{ background: "#F4F6F9" }}
-      className="py-24">
+      className="py-12 md:py-24">
       <div className="container">
         <div className="flex items-center justify-between">
           <DefaultHeader>
             <h2><b>Services</b> we Offer</h2>
           </DefaultHeader>
 
-          <img src="/images/carwithcircle.svg" />
+          <img className="w-24 md:w-40" src="/images/carwithcircle.svg" />
         </div>
 
 
-        <div className="flex items-center gap-16 py-24 ">
+        <div className="flex flex-col lg:flex-row items-center gap-16 py-12 md:py-24 ">
           <ServicesDiv>
             <div className="icon">
               <FaTruckMoving />
@@ -45,9 +45,9 @@ export default function Services() {
 
         </div>
 
-        <div className="flex items-center justify-center mt-6 gap-6">
-          <Btn>Request Quote</Btn>
-          <Btn primary>Join Now</Btn>
+        <div className="flex flex-col sm:flex-row items-center justify-center mt-6 gap-6">
+          <Btn className="w-full sm:w-auto">Request Quote</Btn>
+          <Btn className="w-full sm:w-auto" primary>Join Now</Btn>
         </div>
       </div>
     </section>
