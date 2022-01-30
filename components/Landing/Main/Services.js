@@ -18,7 +18,7 @@ export default function Services() {
 
 
         <div className="flex flex-col lg:flex-row items-center gap-16 py-12 md:py-24 ">
-          <ServicesDiv>
+          <ServicesDiv data-aos="zoom-in-down" data-aos-duration="2000">
             <div className="icon">
               <FaTruckMoving />
             </div>
@@ -28,14 +28,14 @@ export default function Services() {
               fulfillment(e.g. pick and pack),
               in/out-bound solutions, and more.</p>
           </ServicesDiv>
-          <ServicesDiv>
+          <ServicesDiv data-aos="zoom-in-down" data-aos-duration="2000" data-aos-delay="300">
             <div className="icon">
               <GiAirplaneArrival />
             </div>
             <h5>Global Freight</h5>
             <p>Search and compare the best shipping rates among dozens of trusted logistic partners for the last mile delivery and freight.</p>
           </ServicesDiv>
-          <ServicesDiv>
+          <ServicesDiv data-aos="zoom-in-down" data-aos-duration="2000" data-aos-delay="600">
             <div className="icon">
               <BsFillBagFill />
             </div>
